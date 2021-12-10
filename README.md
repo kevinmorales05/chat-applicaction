@@ -3,7 +3,9 @@
 ## Chat desarrollado con Ionic :iphone:
 
 ## Nombre : 
-* *Josue Garrido* 
+* *Grupo10*
+Kevin Morales
+ 
 
 Inonic Chat desarrollado con Ionic Framework, la aplicacion APK ya instalada en un dispositvo permitira iniciar sesión, chatear jutamente con otros usuarios, los mensajes se iran guardando en Firebase de Google de una manera cifrada, los registros de los chats de los usuarios se iran guardando constantemente y ademas con la funcionalidad
 
