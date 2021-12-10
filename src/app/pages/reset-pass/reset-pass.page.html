@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar
+  style="text-align: center; text-transform: uppercase;">
+    <ion-title>¿Olvidaste tu contraseña?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+<form class="ion-padding-top" (submit)="sendLinkReset()">
+<div class="ion-text-center" style="margin-bottom: 3%;">
+  <small>Ingresa tu correo para recuperar tu contraseña</small>
+
+</div>
+  <ion-item>
+    <ion-input type="text" [(ngModel)]='email' placeholder="Ingrese su correo" name="email" required="true"></ion-input>
+  </ion-item>
+  <ion-button class="ion-margin-top" type="submit" expand="block">Recuperar Contraseña</ion-button>
+</form>
+<p class="go-to-register">
+ <a (click)="goToLoginPage()">Regresar al Login </a>
+</p>
+ 
+</ion-content>
