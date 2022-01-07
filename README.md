@@ -44,6 +44,7 @@ Abrir camara
 ![image](https://user-images.githubusercontent.com/27876563/148618028-054c2163-22fc-463f-8b5d-1f6e15c3fbaa.png)
 
 Geolocalizacion
+
 como se puede ver aqui se pusieron en la geolocalizacion esta funcion para que permita visualizacion la ubicacion actual
 
 ![image](https://user-images.githubusercontent.com/27876563/148618117-7297b08a-6eb9-4887-abab-42c5832618b0.png)
