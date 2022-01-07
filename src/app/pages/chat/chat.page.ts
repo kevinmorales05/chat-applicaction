@@ -120,6 +120,9 @@ export class ChatPage implements OnInit {
       console.log("latitud", this.lat)
     });
   }
+  writeGeolocalization () {
+    this.messageData.Message = `Mi ubicación actual es: latitud: ${this.lat}, longitud: ${this.lon}`
+  }
 
   CreateRecord() {
     this.passEnc = "123456";

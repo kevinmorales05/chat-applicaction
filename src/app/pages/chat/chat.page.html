@@ -22,10 +22,8 @@
     </ion-card-content>
   </ion-card>
 </ion-content>
-<ion-content padding>
-  <p>Latitud: {{lat}}</p>
-  <p>Longitud: {{lon}}</p>
-</ion-content>
+
+
   <ion-card-content class="imageContainerButton"  *ngIf="!isUploading && !isUploaded">
     <ion-button class="imageContainer">
       <input id="uploadBtn" type="file" class="upload" (change)="uploadFile($event.target.files)" />
@@ -58,10 +56,13 @@
     <ion-input placeholder="Escribe tu mensaje"  [(ngModel)]="messageData.Message"></ion-input>
 
     <ion-buttons slot="end" >
-      
+      <ion-button (click)="writeGeolocalization()">
+        <ion-icon name="compass"></ion-icon>
+      </ion-button>
       <ion-button (click)="CreateRecord()">
         <ion-icon name="send"></ion-icon>
       </ion-button>
+      
 
     </ion-buttons>
   </ion-toolbar>
