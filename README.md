@@ -27,6 +27,12 @@ Diseño en de registro
 Recuperación de contraseña
 Para la recuperación de contraseña creamos una pagina llamada forgot-password y en la codificación del forgot-password.page.html agregamos elementos como input de tipo email y un botón para llamar a un método llamado onReset.
 
+
+![image](https://user-images.githubusercontent.com/27876563/148617297-8dce349b-44bb-4148-9971-9c66c2d42854.png)
+
+![image](https://user-images.githubusercontent.com/27876563/148617418-a5702ce7-49d5-45b4-b4c4-d7a378c814d7.png)
+
+
 # Fotos de la aplicación
 # Kevin Morales
 <img src="https://firebasestorage.googleapis.com/v0/b/pruebabimestral-8ef0d.appspot.com/o/grupo10%2F1639157457154_KevinMorales.jpg?alt=media&token=05773192-7e04-4d05-b9e8-c03272b84657"  width="500" height="600">
