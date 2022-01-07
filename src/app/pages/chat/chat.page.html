@@ -22,7 +22,10 @@
     </ion-card-content>
   </ion-card>
 </ion-content>
-  
+<ion-content padding>
+  <p>Latitud: {{lat}}</p>
+  <p>Longitud: {{lon}}</p>
+</ion-content>
   <ion-card-content class="imageContainerButton"  *ngIf="!isUploading && !isUploaded">
     <ion-button class="imageContainer">
       <input id="uploadBtn" type="file" class="upload" (change)="uploadFile($event.target.files)" />
