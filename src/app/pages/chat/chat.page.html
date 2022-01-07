@@ -20,6 +20,10 @@
     <ion-card-content>
       <ion-img width="80" height="80" [src]="messageData.Image"></ion-img>
     </ion-card-content>
+    <ion-card-content>
+      <ion-img width="80" height="80" [src]="messageData.capturedSnapURL"></ion-img>
+    </ion-card-content>
+
   </ion-card>
 </ion-content>
 
@@ -58,6 +62,9 @@
     <ion-buttons slot="end" >
       <ion-button (click)="writeGeolocalization()">
         <ion-icon name="compass"></ion-icon>
+      </ion-button>
+      <ion-button (click)="takeSnap()">
+        <ion-icon name="camera"></ion-icon>
       </ion-button>
       <ion-button (click)="CreateRecord()">
         <ion-icon name="send"></ion-icon>

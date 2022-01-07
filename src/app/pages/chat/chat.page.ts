@@ -15,6 +15,7 @@ import {
 import { Observable } from "rxjs";
 import { finalize, tap } from "rxjs/operators";
 import { Geolocation, Geoposition } from "@awesome-cordova-plugins/geolocation/ngx";
+import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 interface messageData {
   Name: string;
@@ -29,6 +30,15 @@ interface messageData {
   styleUrls: ["./chat.page.scss"],
 })
 export class ChatPage implements OnInit {
+  capturedSnapURL:string;
+
+  cameraOptions: CameraOptions = {
+    quality: 20,
+    destinationType: this.camera.DestinationType.DATA_URL,
+    encodingType: this.camera.EncodingType.JPEG,
+    mediaType: this.camera.MediaType.PICTURE
+  }
+
   @ViewChild("content") content: any;
   messageList = [];
   messageData: messageData;
@@ -57,13 +67,16 @@ export class ChatPage implements OnInit {
     private firebaseService: FirebaseService,
     private storage: AngularFireStorage,
     private database: AngularFirestore,
-    public geolocation: Geolocation
+    public geolocation: Geolocation,
+    private camera: Camera
   ) {
     this.messageData = {} as messageData;
     this.isUploading = false;
     this.isUploaded = false;
     this.getGeolocation();
   }
+
+ 
 
   ngOnInit() {
     this.passEnc = "123456";
@@ -112,6 +125,19 @@ export class ChatPage implements OnInit {
     });
   }
 
+  takeSnap() {
+    this.camera.getPicture(this.cameraOptions).then((imageData) => {
+      // this.camera.DestinationType.FILE_URI gives file URI saved in local
+      // this.camera.DestinationType.DATA_URL gives base64 URI
+      
+      let base64Image = 'data:image/jpeg;base64,' + imageData;
+      this.capturedSnapURL = base64Image;
+    }, (err) => {
+      
+      console.log(err);
+      // Handle error
+    });
+  }
   getGeolocation() {
     console.log("llamando funcion para obtener geolocalizacion")
     this.geolocation.getCurrentPosition().then((geoposition: Geoposition)=>{

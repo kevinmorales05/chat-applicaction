@@ -16,7 +16,8 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 //importacion de geolocalizacion
 import { Geolocation } from '@awesome-cordova-plugins/geolocation/ngx';
-
+//importacion de la camara
+import { Camera } from '@ionic-native/camera/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -33,6 +34,7 @@ import { Geolocation } from '@awesome-cordova-plugins/geolocation/ngx';
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
     Geolocation,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
   ],
