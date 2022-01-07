@@ -26,7 +26,7 @@ Diseño en de registro
 
 Recuperación de contraseña
 
-Para la recuperación de contraseña creamos una pagina llamada resetpass y en la codificación del reset-pass-page.html agregamos elementos como input de tipo email y un botón para llamar a un método llamado onReset.
+Para la recuperación de contraseña creamos una pagina llamada resetpass y en la codificación del reset-pass-page.html agregamos elementos como input de tipo email y un botón para llamar a un funcion llamado sendlinkreset
 
 
 ![image](https://user-images.githubusercontent.com/27876563/148617297-8dce349b-44bb-4148-9971-9c66c2d42854.png)
@@ -36,9 +36,21 @@ Para la recuperación de contraseña creamos una pagina llamada resetpass y en l
 la contraseña le llega al correo para el cambio de comtraseña
 
 ![image](https://user-images.githubusercontent.com/27876563/148617669-720b9cdc-822c-4a44-b578-bdbbbafbbb25.png)
+
 ![image](https://user-images.githubusercontent.com/27876563/148617685-cde6acab-3d5d-4297-94a5-203dd4f89507.png)
 
+Abrir camara 
 
+![image](https://user-images.githubusercontent.com/27876563/148618028-054c2163-22fc-463f-8b5d-1f6e15c3fbaa.png)
+
+Geolocalizacion
+como se puede ver aqui se pusieron en la geolocalizacion esta funcion para que permita visualizacion la ubicacion actual
+
+![image](https://user-images.githubusercontent.com/27876563/148618117-7297b08a-6eb9-4887-abab-42c5832618b0.png)
+
+diseño y prueba de la geolocalizacion
+
+![image](https://user-images.githubusercontent.com/27876563/148617862-937c4ee7-c86f-483f-b46a-143991c3133b.png)
 
 
 # Fotos de la aplicación
