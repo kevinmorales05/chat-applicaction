@@ -26,8 +26,8 @@ Diseño en de registro
 
 Recuperación de contraseña
 
-Para la recuperación de contraseña creamos una pagina llamada resetpass y en la codificación del reset-pass-page.html agregamos elementos como input de tipo email y un botón para llamar a un funcion llamado sendlinkreset
-
+Para la recuperación de contraseña creamos una pagina llamada reset-pass y en la codificación del reset-pass-page.html  y un botón para llamar a un funcion llamado sendlinkreset
+para que nos permita el recueprar la comtraseña
 
 ![image](https://user-images.githubusercontent.com/27876563/148617297-8dce349b-44bb-4148-9971-9c66c2d42854.png)
 
@@ -50,7 +50,8 @@ Abrir camara
 abrira al dar click en la camara. Sin título
 
 camara
-foto
+
+![image](https://user-images.githubusercontent.com/27876563/148619395-94030e78-819f-48e9-8253-6a6fff14d3a4.png)
 
 Al momento que se ejecuto la camara o archivo podemos  como se carga el cargo o la foto 
 
