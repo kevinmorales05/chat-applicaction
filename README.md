@@ -39,9 +39,28 @@ la contraseña le llega al correo para el cambio de comtraseña
 
 ![image](https://user-images.githubusercontent.com/27876563/148617685-cde6acab-3d5d-4297-94a5-203dd4f89507.png)
 
+Chat
+
+
+
 Abrir camara 
 
 ![image](https://user-images.githubusercontent.com/27876563/148618028-054c2163-22fc-463f-8b5d-1f6e15c3fbaa.png)
+
+abrira al dar click en la camara. Sin título
+
+
+
+Al momento que se ejecuto la camara o archivo podemos  como se carga el cargo o la foto 
+
+funcion de la carga de archivo
+
+![image](https://user-images.githubusercontent.com/27876563/148618567-073ed5fa-b8ad-465b-b993-3a2fc74c52f9.png)
+
+camara 
+
+
+Funciones que realiza el chat 
 
 Geolocalizacion
 
@@ -54,10 +73,4 @@ diseño y prueba de la geolocalizacion
 ![image](https://user-images.githubusercontent.com/27876563/148617862-937c4ee7-c86f-483f-b46a-143991c3133b.png)
 
 
-# Fotos de la aplicación
-# Kevin Morales
-<img src="https://firebasestorage.googleapis.com/v0/b/pruebabimestral-8ef0d.appspot.com/o/grupo10%2F1639157457154_KevinMorales.jpg?alt=media&token=05773192-7e04-4d05-b9e8-c03272b84657"  width="500" height="600">
 
-<img src=""  width="500" height="600">
-
-<img src=""  width="500" height="600">
