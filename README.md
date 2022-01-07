@@ -49,7 +49,8 @@ Abrir camara
 
 abrira al dar click en la camara. Sin título
 
-
+camara
+foto
 
 Al momento que se ejecuto la camara o archivo podemos  como se carga el cargo o la foto 
 
@@ -57,10 +58,7 @@ funcion de la carga de archivo
 
 ![image](https://user-images.githubusercontent.com/27876563/148618567-073ed5fa-b8ad-465b-b993-3a2fc74c52f9.png)
 
-camara 
-
-
-Funciones que realiza el chat 
+ 
 
 Geolocalizacion
 
@@ -69,6 +67,8 @@ como se puede ver aqui se pusieron en la geolocalizacion esta funcion para que p
 ![image](https://user-images.githubusercontent.com/27876563/148618117-7297b08a-6eb9-4887-abab-42c5832618b0.png)
 
 diseño y prueba de la geolocalizacion
+
+![image](https://user-images.githubusercontent.com/27876563/148618884-14b52cc8-86aa-4207-a494-b655e989a0e4.png)
 
 ![image](https://user-images.githubusercontent.com/27876563/148617862-937c4ee7-c86f-483f-b46a-143991c3133b.png)
 
