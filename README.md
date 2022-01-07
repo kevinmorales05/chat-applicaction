@@ -1,25 +1,14 @@
-## Prueba bimestral Aplicaciones Moviles 
+EXAMEN APLICACIONES MOVILES
 
-## Nombre : 
-* *Grupo10*
+Integrantes: 
+
 Kevin Morales
-Jose Borja
-Jhony Cacuago
 Freddy Guapi
+Jose Antonio Borja
 
-# Despliegue
+Login
+Realizar el registro e inicio de sesión con diferentes funciones 
 
-1. npm install
-2. ionic serve
-
-
-## Links del video
-* Youtube
-Link: https://youtu.be/_TWBKYeT0es
-* Facebook
-Link: https://www.facebook.com/1096023994/videos/1254499735068529/
-* TikTok
-Link: https://www.tiktok.com/@un.pasoalavez/video/7040222490819382533?lang=es&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6995701146699646469 
 
 # Fotos de la aplicación
 # Kevin Morales
