@@ -51,7 +51,11 @@ abrira al dar click en la camara. Sin título
 
 camara
 
-![image](https://user-images.githubusercontent.com/27876563/148619395-94030e78-819f-48e9-8253-6a6fff14d3a4.png)
+![image](https://user-images.githubusercontent.com/27876563/148621887-ce0b5402-835a-4d58-9bb7-6f63941951e1.png)
+
+
+![image](https://user-images.githubusercontent.com/27876563/148621574-e4b3f6f7-1190-4f67-95ff-921ac3cbe6d4.png)
+
 
 Al momento que se ejecuto la camara o archivo podemos  como se carga el cargo o la foto 
 
