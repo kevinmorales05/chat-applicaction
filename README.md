@@ -1,30 +1,78 @@
-## Prueba bimestral Aplicaciones Moviles 
+EXAMEN APLICACIONES MOVILES
 
-## Nombre : 
-* *Grupo10*
+Integrantes: 
+
 Kevin Morales
-Jose Borja
-Jhony Cacuago
 Freddy Guapi
+Jose Antonio Borja
 
-# Despliegue
+Login
+Realizar el registro e inicio de sesión con diferentes funciones 
+login con su validacion respectiva 
 
-1. npm install
-2. ionic serve
+![image](https://user-images.githubusercontent.com/27876563/148617017-d2c4f2af-20a5-4a14-a25f-ac48c4c79b2f.png)
+
+Diseño en de login
+
+![image](https://user-images.githubusercontent.com/27876563/148616944-cdc77425-811c-4734-86b8-48688baa91d5.png)
+
+Registro de login 
+
+![image](https://user-images.githubusercontent.com/27876563/148617095-101655e3-74e9-478c-b7b3-f0b3d317ce71.png)
+
+Diseño en de registro
+
+![image](https://user-images.githubusercontent.com/27876563/148617054-c1f9df1c-1eb2-42f4-b4e4-7cf5c4579639.png)
+
+Recuperación de contraseña
+
+Para la recuperación de contraseña creamos una pagina llamada reset-pass y en la codificación del reset-pass-page.html  y un botón para llamar a un funcion llamado sendlinkreset
+para que nos permita el recueprar la comtraseña
+
+![image](https://user-images.githubusercontent.com/27876563/148617297-8dce349b-44bb-4148-9971-9c66c2d42854.png)
+
+![image](https://user-images.githubusercontent.com/27876563/148617418-a5702ce7-49d5-45b4-b4c4-d7a378c814d7.png)
+
+la contraseña le llega al correo para el cambio de comtraseña
+
+![image](https://user-images.githubusercontent.com/27876563/148617669-720b9cdc-822c-4a44-b578-bdbbbafbbb25.png)
+
+![image](https://user-images.githubusercontent.com/27876563/148617685-cde6acab-3d5d-4297-94a5-203dd4f89507.png)
+
+Chat
+![image](https://user-images.githubusercontent.com/27876563/148617862-937c4ee7-c86f-483f-b46a-143991c3133b.png)
+
+Abrir camara 
+
+![image](https://user-images.githubusercontent.com/27876563/148618028-054c2163-22fc-463f-8b5d-1f6e15c3fbaa.png)
+
+abrira al dar click en la camara. Sin título
+
+camara
+
+![image](https://user-images.githubusercontent.com/27876563/148621887-ce0b5402-835a-4d58-9bb7-6f63941951e1.png)
 
 
-## Links del video
-* Youtube
-Link: https://youtu.be/_TWBKYeT0es
-* Facebook
-Link: https://www.facebook.com/1096023994/videos/1254499735068529/
-* TikTok
-Link: https://www.tiktok.com/@un.pasoalavez/video/7040222490819382533?lang=es&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6995701146699646469 
+![image](https://user-images.githubusercontent.com/27876563/148621574-e4b3f6f7-1190-4f67-95ff-921ac3cbe6d4.png)
 
-# Fotos de la aplicación
-# Kevin Morales
-<img src="https://firebasestorage.googleapis.com/v0/b/pruebabimestral-8ef0d.appspot.com/o/grupo10%2F1639157457154_KevinMorales.jpg?alt=media&token=05773192-7e04-4d05-b9e8-c03272b84657"  width="500" height="600">
 
-<img src=""  width="500" height="600">
+Al momento que se ejecuto la camara o archivo podemos  como se carga el cargo o la foto 
 
-<img src=""  width="500" height="600">
+funcion de la carga de archivo
+
+![image](https://user-images.githubusercontent.com/27876563/148618567-073ed5fa-b8ad-465b-b993-3a2fc74c52f9.png)
+
+ 
+
+Geolocalizacion
+
+como se puede ver aqui se pusieron en la geolocalizacion esta funcion para que permita visualizacion la ubicacion actual
+
+![image](https://user-images.githubusercontent.com/27876563/148618117-7297b08a-6eb9-4887-abab-42c5832618b0.png)
+
+diseño y prueba de la geolocalizacion
+
+![image](https://user-images.githubusercontent.com/27876563/148618884-14b52cc8-86aa-4207-a494-b655e989a0e4.png)
+
+
+
