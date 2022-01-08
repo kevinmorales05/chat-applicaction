@@ -40,8 +40,7 @@ la contraseña le llega al correo para el cambio de comtraseña
 ![image](https://user-images.githubusercontent.com/27876563/148617685-cde6acab-3d5d-4297-94a5-203dd4f89507.png)
 
 Chat
-
-
+![image](https://user-images.githubusercontent.com/27876563/148617862-937c4ee7-c86f-483f-b46a-143991c3133b.png)
 
 Abrir camara 
 
@@ -74,8 +73,6 @@ como se puede ver aqui se pusieron en la geolocalizacion esta funcion para que p
 diseño y prueba de la geolocalizacion
 
 ![image](https://user-images.githubusercontent.com/27876563/148618884-14b52cc8-86aa-4207-a494-b655e989a0e4.png)
-
-![image](https://user-images.githubusercontent.com/27876563/148617862-937c4ee7-c86f-483f-b46a-143991c3133b.png)
 
 
 
